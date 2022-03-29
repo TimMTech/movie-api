@@ -1,0 +1,21 @@
+.main-container {
+  height: 100%;
+}
+
+.main-container > h1 {
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.movie-container {
+  padding: 2rem;
+  overflow: scroll;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}

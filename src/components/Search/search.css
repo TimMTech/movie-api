@@ -1,0 +1,30 @@
+.search-movie {
+  display: flex;
+}
+
+.search-input {
+  width: 15rem;
+  height: 2rem;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.search-btn {
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+
+.search-png {
+  width: 2rem;
+  height: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}

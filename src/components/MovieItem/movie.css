@@ -1,0 +1,78 @@
+.movies {
+  display: flex;
+}
+
+.movie-return {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  margin: 0 4rem;
+  font-size: 0.7rem;
+}
+
+.image-container .info-btn {
+  color: rgb(255, 255, 255);
+  width: 15rem;
+  height: 4rem;
+  border: 0.1rem solid white;
+  border-top: none;
+  background-color: transparent;
+  opacity: 0;
+  position: absolute;
+  transition: 0.5s;
+  right: 0;
+  bottom: 0;
+  font-size: 1.2rem;
+}
+
+.image-container .fave-btn {
+  width: 15rem;
+  height: 4rem;
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: rgb( 255,255,255);
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.image-container .fave-btn:hover {
+  opacity: 1;
+  background-color: #000000d5;
+  cursor: pointer;
+}
+
+
+.image {
+  height: 20rem;
+  width: 15rem;
+  border: 0.1rem solid white;
+}
+
+.image-container {
+  display: flex;
+  transition: 0.5s;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.image-container:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.image-container:hover .info-btn {
+  opacity: 1;
+  background: #000000d5;
+  cursor: pointer;
+}
+
+[src="N/A"] {
+  display: inline-block;
+  content: url("");
+  background: url("../../Images/nophoto.png");
+  background-size: 100%;
+}
