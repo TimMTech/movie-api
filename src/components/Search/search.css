@@ -10,6 +10,7 @@
   background-color: transparent;
   border: none;
   color: rgb(255, 255, 255);
+  
 }
 
 input:focus {
@@ -17,7 +18,9 @@ input:focus {
 }
 
 input {
-  color: rgb(255,255,255)
+  width: 100%;
+  color: rgb(255,255,255);
+  font-size: 2rem;
 }
 
 .search-btn {
