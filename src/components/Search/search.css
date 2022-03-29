@@ -4,20 +4,23 @@
 
 .search-input {
   width: 15rem;
-  height: 2rem;
+  height: 3rem;
   font-size: 2rem;
-  padding: 1rem;
+  padding-left: 1rem;
   background-color: transparent;
   border: none;
   color: rgb(255, 255, 255);
-  
 }
 
+input:focus {
+  outline: none;
+}
 
 input {
   width: 100%;
   color: rgb(255,255,255);
   font-size: 2rem;
+  
 }
 
 .search-btn {
@@ -27,10 +30,11 @@ input {
 }
 
 .search-png {
-  width: 2rem;
+  width: 3rem;
   height: 2rem;
   transition: 0.2s;
   cursor: pointer;
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 300px){
