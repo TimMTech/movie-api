@@ -32,3 +32,9 @@ input {
   transition: 0.2s;
   cursor: pointer;
 }
+
+@media screen and (max-width: 300px){
+  .search-movie input[type="text"] {
+    width: 180px !important;
+  }
+}
