@@ -16,6 +16,10 @@ input:focus {
   outline: none !important;
 }
 
+input {
+  color: rgb(255,255,255)
+}
+
 .search-btn {
   border: none;
   background-color: transparent;
