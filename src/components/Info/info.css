@@ -78,3 +78,23 @@
 .close-icon:hover {
   transform: scale(1.2, 1.2);
 }
+
+@media screen and (max-width: 650px){
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    margin: -4rem
+  }
+
+  .modal-image {
+    margin-bottom: -3.5rem;
+  }
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 90vh;
+    font-size: 4vw;
+  }
+}
